@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  python:
+    build:
+      context: .
+      dockerfile: ./docker/python/Dockerfile
+    volumes:
+      - ./src/:/code:delegated
+    networks:
+      - jackson_the_movie
+
+networks:
+  jackson_the_movie:
+    name: jackson_the_movie
+    driver: bridge
