@@ -2,7 +2,7 @@
 <!DOCTYPE xmeml>
 <xmeml version="5">
     <sequence>
-        <name>SecondScene.Park (Resolve)</name>
+        <name>SecondScene.Park</name>
         <duration>45077</duration>
         <rate>
             <timebase>24</timebase>
